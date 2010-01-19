@@ -1,0 +1,134 @@
+TWhatATool
+v7
+r0
+t285596258.750424
+cCheck dependencies
+cProcessPCH /var/folders/0x/0xQOV6nEH28IIbTuWDvPcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhatATool_Prefix-heubcsofckjnsgbuelukdgthmtdq/WhatATool_Prefix.pch.gch WhatATool_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/WhatATool.o /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/PolygonShape.o /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/PolygonShape.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/Debug/WhatATool normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004ABBF0FD00000000000000EE
+t1253830909
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004AB9AA2700000000000013E6
+t1253681703
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A600BCB0000000000B37440
+t1247808459
+s11760704
+
+N/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/PolygonShape.h
+c000000004B55A1620000000000000374
+t1263903074
+s884
+i<Cocoa/Cocoa.h>
+
+N/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/PolygonShape.m
+c000000004B55A2E100000000000008AC
+t1263903457
+s2220
+i"PolygonShape.h"
+
+N/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m
+c000000004B559EA80000000000000A52
+t1263902376
+s2642
+i<Foundation/Foundation.h>
+i"PolygonShape.h"
+
+N/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool_Prefix.pch
+c000000004B54988800000000000000A0
+t1263835272
+s160
+i<Foundation/Foundation.h>
+
+N/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/Debug/WhatATool
+t1263903458
+s22376
+
+N/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/PolygonShape.o
+t1263903458
+s20432
+
+N/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/WhatATool.LinkFileList
+c000000004B559B3A000000000000011D
+t1263901498
+s285
+
+N/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/WhatATool.o
+t1263903076
+s18552
+
+N/var/folders/0x/0xQOV6nEH28IIbTuWDvPcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhatATool_Prefix-heubcsofckjnsgbuelukdgthmtdq/WhatATool_Prefix.pch.gch
+t1263835594
+s41405200
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies285596258#285596258#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/PolygonShape.o /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/PolygonShape.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s285596258.264296
+e285596258.730341
+r1
+xCompileC
+xbuild/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/PolygonShape.o
+x/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/PolygonShape.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/PolygonShape.m285596258#285596258#0(0"0(0#0#77"/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/PolygonShape.m4300885448#1770"    cd /Users/marocchino/Documents/projects/iphone/stanford/WhatATool    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-generated-files.hmap -I/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-own-target-headers.hmap -I/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-all-target-headers.hmap -iquote /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-project-headers.hmap -F/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/Debug -I/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/Debug/include -I/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/DerivedSources/x86_64 -I/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/DerivedSources -include /var/folders/0x/0xQOV6nEH28IIbTuWDvPcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhatATool_Prefix-heubcsofckjnsgbuelukdgthmtdq/WhatATool_Prefix.pch -c /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/PolygonShape.m -o /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/PolygonShape.o0#
+
+CCompileC build/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/WhatATool.o /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s285595875.650198
+e285595876.034415
+r1
+xCompileC
+xbuild/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/WhatATool.o
+x/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m: In function 'PrintIntrospectionInfo':
+o/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m:35: warning: 'NSObject' may not respond to '-lowercaseString'
+o/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m:35: warning: (Messages without a matching method signature
+o/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m:35: warning: will be assumed to return 'id' and accept
+o/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m:35: warning: '...' as arguments.)
+lSLF07#2@82"Compile /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m285595875#285595876#0(624"/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m: In function 'PrintIntrospectionInfo':/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m:35: warning: 'NSObject' may not respond to '-lowercaseString'/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m:35: warning: (Messages without a matching method signature/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m:35: warning: will be assumed to return 'id' and accept/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m:35: warning: '...' as arguments.)2(22@48"'NSObject' may not respond to '-lowercaseString'285595875#114#137#0(6@74"/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m285595176#35#0#35#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)285595875#251#134#0(6@74"/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m285595176#35#0#35#0#0"0(0#0#74"/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m4300885448#1764"    cd /Users/marocchino/Documents/projects/iphone/stanford/WhatATool    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-generated-files.hmap -I/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-own-target-headers.hmap -I/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-all-target-headers.hmap -iquote /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-project-headers.hmap -F/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/Debug -I/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/Debug/include -I/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/DerivedSources/x86_64 -I/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/DerivedSources -include /var/folders/0x/0xQOV6nEH28IIbTuWDvPcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhatATool_Prefix-heubcsofckjnsgbuelukdgthmtdq/WhatATool_Prefix.pch -c /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool.m -o /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/WhatATool.o0#
+
+CLd /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/Debug/WhatATool normal x86_64
+s285596258.730429
+e285596258.750307
+r1
+xLd
+x/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/Debug/WhatATool
+xnormal
+xx86_64
+lSLF07#2@89"Link /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/Debug/WhatATool285596258#285596258#0(0"0(0#0#0"4300885448#648"    cd /Users/marocchino/Documents/projects/iphone/stanford/WhatATool    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/Debug -F/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/Debug -filelist /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/WhatATool.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/Debug/WhatATool0#
+
+CProcessPCH /var/folders/0x/0xQOV6nEH28IIbTuWDvPcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhatATool_Prefix-heubcsofckjnsgbuelukdgthmtdq/WhatATool_Prefix.pch.gch WhatATool_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s285528392.121047
+e285528394.862171
+r1
+xProcessPCH
+x/var/folders/0x/0xQOV6nEH28IIbTuWDvPcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhatATool_Prefix-heubcsofckjnsgbuelukdgthmtdq/WhatATool_Prefix.pch.gch
+xWhatATool_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile WhatATool_Prefix.pch285528392#285528394#0(0"0(0#0#83"/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool_Prefix.pch4300885448#1634"    cd /Users/marocchino/Documents/projects/iphone/stanford/WhatATool    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-generated-files.hmap -I/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-own-target-headers.hmap -I/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-all-target-headers.hmap -iquote /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-project-headers.hmap -F/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/Debug -I/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/Debug/include -I/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/DerivedSources/x86_64 -I/Users/marocchino/Documents/projects/iphone/stanford/WhatATool/build/WhatATool.build/Debug/WhatATool.build/DerivedSources -c /Users/marocchino/Documents/projects/iphone/stanford/WhatATool/WhatATool_Prefix.pch -o /var/folders/0x/0xQOV6nEH28IIbTuWDvPcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhatATool_Prefix-heubcsofckjnsgbuelukdgthmtdq/WhatATool_Prefix.pch.gch0#
+
