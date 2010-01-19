@@ -63,7 +63,7 @@
 - (id)numberOfSides:(int)sides
 {
 	if (sides < minimumNumberOfSides) {
-		numberOfSides = minimumNumberOfSides+1;
+		numberOfSides = minimumNumberOfSides;
 	} else if(sides > maximumNumberOfSides) {
 		numberOfSides = maximumNumberOfSides;
 	} else {

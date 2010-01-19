@@ -38,11 +38,11 @@
 			PBXWorkspaceStateSaveDate = 285590749;
 		};
 		perUserProjectItems = {
-			2636B8DD1104E7EB006500BE = 2636B8DD1104E7EB006500BE /* PBXTextBookmark */;
-			2636B8F01104EB77006500BE = 2636B8F01104EB77006500BE /* PBXTextBookmark */;
-			26D6327A1105D6A0009C11B9 /* XCBuildMessageTextBookmark */ = 26D6327A1105D6A0009C11B9 /* XCBuildMessageTextBookmark */;
-			26D6327B1105D6A0009C11B9 /* PBXTextBookmark */ = 26D6327B1105D6A0009C11B9 /* PBXTextBookmark */;
-			26DF19BD11058D05007106D2 = 26DF19BD11058D05007106D2 /* PBXTextBookmark */;
+			26D632A61105DC16009C11B9 /* PBXTextBookmark */ = 26D632A61105DC16009C11B9 /* PBXTextBookmark */;
+			26D632A71105DC16009C11B9 /* PBXTextBookmark */ = 26D632A71105DC16009C11B9 /* PBXTextBookmark */;
+			26D632A81105DC16009C11B9 /* PBXTextBookmark */ = 26D632A81105DC16009C11B9 /* PBXTextBookmark */;
+			26D632A91105DC16009C11B9 /* PBXTextBookmark */ = 26D632A91105DC16009C11B9 /* PBXTextBookmark */;
+			26D632AA1105DC16009C11B9 /* PBXTextBookmark */ = 26D632AA1105DC16009C11B9 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 2636B8131104D00C006500BE /* Source Control */;
 		userBuildSettings = {
@@ -50,9 +50,9 @@
 	};
 	08FB7796FE84155DC02AAC07 /* WhatATool.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 870}}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 885}}";
 			sepNavSelRange = "{1794, 0}";
-			sepNavVisRange = "{0, 812}";
+			sepNavVisRange = "{1376, 710}";
 		};
 	};
 	2636B8061104D008006500BE /* WhatATool */ = {
@@ -101,66 +101,69 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	2636B8DD1104E7EB006500BE /* PBXTextBookmark */ = {
+	26D632A61105DC16009C11B9 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		comments = "'stringWithContentsOfFile:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:379)";
-		fRef = 08FB7796FE84155DC02AAC07 /* WhatATool.m */;
-		rLen = 1;
-		rLoc = 4;
-		rType = 1;
-	};
-	2636B8F01104EB77006500BE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* WhatATool.m */;
-		name = "WhatATool.m: 4";
+		fRef = 32A70AAB03705E1F00C91783 /* WhatATool_Prefix.pch */;
+		name = "WhatATool_Prefix.pch: 1";
 		rLen = 0;
-		rLoc = 161;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 1011;
+		vrLen = 160;
 		vrLoc = 0;
 	};
-	26D6327A1105D6A0009C11B9 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "'NSObject' may not respond to '-lowercaseString'";
-		fRef = 08FB7796FE84155DC02AAC07 /* WhatATool.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 34;
-		rType = 1;
-	};
-	26D6327B1105D6A0009C11B9 /* PBXTextBookmark */ = {
+	26D632A71105DC16009C11B9 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* WhatATool.m */;
-		name = "WhatATool.m: 35";
-		rLen = 0;
-		rLoc = 1794;
+		name = "WhatATool.m: 1";
+		rLen = 33;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 597;
-		vrLoc = 1376;
+		vrLen = 812;
+		vrLoc = 0;
 	};
-	26DF19BD11058D05007106D2 /* PBXTextBookmark */ = {
+	26D632A81105DC16009C11B9 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* WhatATool.m */;
-		name = "WhatATool.m: 4";
+		fRef = 26DF19CA11058D3E007106D2 /* PolygonShape.m */;
+		name = "PolygonShape.m: 21";
 		rLen = 0;
-		rLoc = 161;
+		rLoc = 418;
 		rType = 0;
-		vrLen = 921;
+		vrLen = 305;
+		vrLoc = 0;
+	};
+	26D632A91105DC16009C11B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26DF19C911058D3E007106D2 /* PolygonShape.h */;
+		name = "PolygonShape.h: 28";
+		rLen = 0;
+		rLoc = 676;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 0;
+	};
+	26D632AA1105DC16009C11B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26DF19C911058D3E007106D2 /* PolygonShape.h */;
+		name = "PolygonShape.h: 9";
+		rLen = 0;
+		rLoc = 175;
+		rType = 0;
+		vrLen = 314;
 		vrLoc = 0;
 	};
 	26DF19C911058D3E007106D2 /* PolygonShape.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {705, 465}}";
-			sepNavSelRange = "{343, 0}";
-			sepNavVisRange = "{225, 576}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 615}}";
+			sepNavSelRange = "{175, 0}";
+			sepNavVisRange = "{0, 314}";
 			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
 		};
 	};
 	26DF19CA11058D3E007106D2 /* PolygonShape.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {698, 2190}}";
-			sepNavSelRange = "{2558, 0}";
-			sepNavVisRange = "{2268, 229}";
+			sepNavIntBoundsRect = "{{0, 0}, {1363, 1425}}";
+			sepNavSelRange = "{418, 0}";
+			sepNavVisRange = "{0, 305}";
 		};
 	};
 	32A70AAB03705E1F00C91783 /* WhatATool_Prefix.pch */ = {

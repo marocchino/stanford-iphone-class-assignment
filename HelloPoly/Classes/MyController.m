@@ -9,11 +9,14 @@
 
 @implementation MyController
 - (IBAction)decNum:(id)sender {
-    number.text = [NSString stringWithFormat:@"%d",number.text.integerValue - 1];
+	[poly numberOfSides:poly.numberOfSides-1];
+    number.text = [NSString stringWithFormat:@"%d",[poly numberOfSides]];
+//    number.text = [NSString stringWithFormat:@"%d",number.text.integerValue - 1];
 }
 
 - (IBAction)incNum:(id)sender {
-    number.text = [NSString stringWithFormat:@"%d",number.text.integerValue + 1];
-    
+	[poly numberOfSides:poly.numberOfSides+1];
+    number.text = [NSString stringWithFormat:@"%d",[poly numberOfSides]];
+//    number.text = [NSString stringWithFormat:@"%d",number.text.integerValue + 1];
 }
 @end
