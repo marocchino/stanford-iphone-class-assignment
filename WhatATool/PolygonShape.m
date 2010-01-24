@@ -13,17 +13,17 @@
 @synthesize numberOfSides, minimumNumberOfSides, maximumNumberOfSides;
 - (id) init
 {
-	self = [super init];
-	if (self != nil) {
-		[self maximumNumberOfSides:10];
-		[self minimumNumberOfSides:3];
-		[self numberOfSides:5];
-	}
-	return self;
+//	self = [super init];
+//	if (self != nil) {
+	return [self initWithNumberOfSides:5 minimumNumberOfSides:3 maximumNumberOfSides:10];
+//	}
+//	return self;
 }
 - (NSString *) description
 {
-	return [NSString stringWithFormat:@"Hello I am a %d-sided polygon (aka a %@) with angles of %f degrees (%f radians).",numberOfSides,[self name],[self angleInDegrees],[self angleInRadians]];
+	NSString *result;
+	result = [NSString stringWithFormat:@"Hello I am a %d-sided polygon (aka a %@) with angles of %f degrees (%f radians).",numberOfSides,[self name],[self angleInDegrees],[self angleInRadians]];
+	return result;
 }
 - (float) angleInDegrees
 {
@@ -60,7 +60,7 @@
 			return @"unknown";
 	}
 }
-- (id)numberOfSides:(int)sides
+- (void)setNumberOfSides:(int)sides
 {
 	if (sides < minimumNumberOfSides) {
 		numberOfSides = minimumNumberOfSides;
@@ -69,31 +69,28 @@
 	} else {
 		numberOfSides = sides;
 	}
-	return nil; 
 }
-- (id)minimumNumberOfSides:(int)min
+- (void)setMinimumNumberOfSides:(int)min
 {
 	if (min > 2) {
 		minimumNumberOfSides = min;
 	} else {
 		minimumNumberOfSides = 2;
 	}
-	return nil;
 }
-- (id)maximumNumberOfSides:(int)max
+- (void)setMaximumNumberOfSides:(int)max
 {
 	if (max <= 12) {
 		maximumNumberOfSides = max;
 	} else {
 		maximumNumberOfSides = 12;
 	}
-	return nil;
 }
 - (id)initWithNumberOfSides:(int)sides minimumNumberOfSides:(int)min maximumNumberOfSides:(int)max
 {
-	[self maximumNumberOfSides:max];
-	[self minimumNumberOfSides:min];
-	[self numberOfSides:sides];
+	[self setMaximumNumberOfSides:max];
+	[self setMinimumNumberOfSides:min];
+	[self setNumberOfSides:sides];
 	return self;
 }
 
