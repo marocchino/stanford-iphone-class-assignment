@@ -1,293 +1,0 @@
-THelloStanford
-v7
-r0
-t285527253.822806
-cCheck dependencies
-cCpResource build/Debug-iphoneos/HelloStanford.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/Info.plist HelloStanford-Info.plist
-cCompileXIB /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/MainWindow.xib
-cCopyPNGFile "/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/Screen shot 2010-01-19 at 2.03.58.png" "Screen shot 2010-01-19 at 2.03.58.png"
-cProcessPCH /var/folders/0x/0xQOV6nEH28IIbTuWDvPcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloStanford_Prefix-fkxizsnecttdgycnvuepnpbevtiv/HelloStanford_Prefix.pch.gch HelloStanford_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/Objects-normal/armv6/main.o /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/Objects-normal/armv6/HelloStanfordAppDelegate.o /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/Classes/HelloStanfordAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/HelloStanford normal armv6
-cGenerateDSYMFile /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app.dSYM /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/HelloStanford
-cProcessProductPackaging "/Users/marocchino/Library/MobileDevice/Provisioning Profiles/A1E35EC1-2DAA-4B99-8BF1-010E2C399682.mobileprovision" /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/embedded.mobileprovision
-cTouch /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford.xcent
-cCodeSign /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
-c000000004ABFDAFE0000000000000110
-t1254087422
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
-c000000004ABDB88400000000000000DD
-t1253947524
-s221
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
-c000000004ABDB88400000000000001E5
-t1253947524
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004ABDBA1300000000005F4900
-t1253947923
-s6244608
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004ABDBDCF0000000000501370
-t1253948879
-s5247856
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004ABDBDA40000000000001355
-t1253948836
-s4949
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004ABDD0D10000000000000788
-t1253953745
-s1928
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004ABDD2250000000001B3F450
-t1253954085
-s28570704
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/Classes/HelloStanfordAppDelegate.h
-c000000004B54824B0000000000000159
-t1263829579
-s345
-i<UIKit/UIKit.h>
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/Classes/HelloStanfordAppDelegate.m
-c000000004B54824B00000000000001F9
-t1263829579
-s505
-i"HelloStanfordAppDelegate.h"
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/HelloStanford_Prefix.pch
-c000000004B54824B00000000000000C3
-t1263829579
-s195
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/MainWindow.xib
-c000000004B54954800000000000048DB
-t1263834440
-s18651
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/Screen shot 2010-01-19 at 2.03.58.png
-c000000004B5494850000000000012794
-t1263834245
-s75668
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app
-t1263834453
-s374
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app.dSYM
-t1263834453
-s102
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/HelloStanford
-t1263834453
-s14808
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/Info.plist
-t1263834449
-s654
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/MainWindow.nib
-t1263834450
-s2207
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/PkgInfo
-t1263834449
-s8
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/ResourceRules.plist
-t1263834449
-s485
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/Screen shot 2010-01-19 at 2.03.58.png
-t1263834450
-s80899
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/embedded.mobileprovision
-t1263834453
-s7157
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford.xcent
-t1263834453
-s326
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/Objects-normal/armv6/HelloStanford.LinkFileList
-c000000004B549551000000000000014C
-t1263834449
-s332
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/Objects-normal/armv6/HelloStanfordAppDelegate.o
-t1263834452
-s19272
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/Objects-normal/armv6/main.o
-t1263834452
-s6604
-
-N/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/main.m
-c000000004B54824B000000000000016F
-t1263829579
-s367
-i<UIKit/UIKit.h>
-
-N/Users/marocchino/Library/MobileDevice/Provisioning Profiles/A1E35EC1-2DAA-4B99-8BF1-010E2C399682.mobileprovision
-c000000004AEA82E30000000000001BF5
-t1256882915
-s7157
-
-N/var/folders/0x/0xQOV6nEH28IIbTuWDvPcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloStanford_Prefix-fkxizsnecttdgycnvuepnpbevtiv/HelloStanford_Prefix.pch.gch
-t1263834452
-s7876792
-
-NHelloStanford-Info.plist
-c000000004B54824B000000000000038D
-t1263829579
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies285527249#285527249#0(0"0(0#1#0"28992373579448432#0"0#
-
-CCodeSign /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app
-s285527253.505069
-e285527253.822748
-r1
-xCodeSign
-x/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app
-lSLF07#2@47"CodeSign build/Debug-iphoneos/HelloStanford.app285527253#285527253#0(0"0(0#0#105"/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app4300885448#787"    cd /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Taewon Shim (6XZ62RWV8W)" --resource-rules=/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/ResourceRules.plist --entitlements /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford.xcent /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app0#
-
-CCompileC build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/Objects-normal/armv6/HelloStanfordAppDelegate.o /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/Classes/HelloStanfordAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s285527252.874331
-e285527252.989067
-r1
-xCompileC
-xbuild/HelloStanford.build/Debug-iphoneos/HelloStanford.build/Objects-normal/armv6/HelloStanfordAppDelegate.o
-x/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/Classes/HelloStanfordAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@109"Compile /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/Classes/HelloStanfordAppDelegate.m285527252#285527252#0(0"0(0#0#101"/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/Classes/HelloStanfordAppDelegate.m4300885448#2204"    cd /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford-generated-files.hmap -I/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford-own-target-headers.hmap -I/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford-all-target-headers.hmap -iquote /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford-project-headers.hmap -F/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos -I/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/include -I/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/DerivedSources/armv6 -I/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/DerivedSources -include /var/folders/0x/0xQOV6nEH28IIbTuWDvPcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloStanford_Prefix-fkxizsnecttdgycnvuepnpbevtiv/HelloStanford_Prefix.pch -c /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/Classes/HelloStanfordAppDelegate.m -o /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/Objects-normal/armv6/HelloStanfordAppDelegate.o0#
-
-CCompileC build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/Objects-normal/armv6/main.o /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s285527252.872470
-e285527252.973044
-r1
-xCompileC
-xbuild/HelloStanford.build/Debug-iphoneos/HelloStanford.build/Objects-normal/armv6/main.o
-x/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/main.m285527252#285527252#0(0"0(0#0#73"/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/main.m4300885448#2156"    cd /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford-generated-files.hmap -I/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford-own-target-headers.hmap -I/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford-all-target-headers.hmap -iquote /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford-project-headers.hmap -F/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos -I/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/include -I/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/DerivedSources/armv6 -I/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/DerivedSources -include /var/folders/0x/0xQOV6nEH28IIbTuWDvPcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloStanford_Prefix-fkxizsnecttdgycnvuepnpbevtiv/HelloStanford_Prefix.pch -c /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/main.m -o /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/Objects-normal/armv6/main.o0#
-
-CCompileXIB /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/MainWindow.xib
-s285527249.591005
-e285527250.076683
-r1
-xCompileXIB
-x/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/MainWindow.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@25"CompileXIB MainWindow.xib285527249#285527250#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#81"/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/MainWindow.xib4300885448#558"    cd /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/MainWindow.nib /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/MainWindow.xib0#
-
-CCopyPNGFile "/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/Screen shot 2010-01-19 at 2.03.58.png" "Screen shot 2010-01-19 at 2.03.58.png"
-s285527249.591679
-e285527250.386210
-r1
-xCopyPNGFile
-x/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/Screen shot 2010-01-19 at 2.03.58.png
-xScreen shot 2010-01-19 at 2.03.58.png
-lSLF07#2@130"CopyPNGFile "build/Debug-iphoneos/HelloStanford.app/Screen shot 2010-01-19 at 2.03.58.png" "Screen shot 2010-01-19 at 2.03.58.png"285527249#285527250#0(0"0(0#0#104"/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/Screen shot 2010-01-19 at 2.03.58.png4300885448#708"    cd /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/Screen shot 2010-01-19 at 2.03.58.png" "/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/Screen shot 2010-01-19 at 2.03.58.png"0#
-
-CCpResource build/Debug-iphoneos/HelloStanford.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
-s285527249.516041
-e285527249.590912
-r1
-xCpResource
-xbuild/Debug-iphoneos/HelloStanford.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
-lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist285527249#285527249#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist7297009443364890624#544"    cd /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app0#
-
-CGenerateDSYMFile /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app.dSYM /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/HelloStanford
-s285527253.430368
-e285527253.442487
-r1
-xGenerateDSYMFile
-x/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app.dSYM
-x/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/HelloStanford
-lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/HelloStanford.app.dSYM build/Debug-iphoneos/HelloStanford.app/HelloStanford285527253#285527253#0(0"0(0#0#119"/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/HelloStanford4300885448#464"    cd /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/HelloStanford -o /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app.dSYM0#
-
-CLd /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/HelloStanford normal armv6
-s285527252.989212
-e285527253.430262
-r1
-xLd
-x/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/HelloStanford
-xnormal
-xarmv6
-lSLF07#2@124"Link /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/HelloStanford285527252#285527253#0(0"0(0#0#0"4300885448#1065"    cd /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos -F/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos -filelist /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/Objects-normal/armv6/HelloStanford.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/HelloStanford0#
-
-CProcessInfoPlistFile /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/Info.plist HelloStanford-Info.plist
-s285527249.561872
-e285527249.586652
-r1
-xProcessInfoPlistFile
-x/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/Info.plist
-xHelloStanford-Info.plist
-lSLF07#2@32"Process HelloStanford-Info.plist285527249#285527249#0(0"0(0#0#91"/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/HelloStanford-Info.plist4300885448#698"    cd /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HelloStanford-Info.plist -genpkginfo /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/ResourceRules.plist -o /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/Info.plist0#
-
-CProcessPCH /var/folders/0x/0xQOV6nEH28IIbTuWDvPcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloStanford_Prefix-fkxizsnecttdgycnvuepnpbevtiv/HelloStanford_Prefix.pch.gch HelloStanford_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s285527250.386394
-e285527252.872226
-r1
-xProcessPCH
-x/var/folders/0x/0xQOV6nEH28IIbTuWDvPcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloStanford_Prefix-fkxizsnecttdgycnvuepnpbevtiv/HelloStanford_Prefix.pch.gch
-xHelloStanford_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@35"Precompile HelloStanford_Prefix.pch285527250#285527252#0(0"0(0#0#91"/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/HelloStanford_Prefix.pch4300885448#2020"    cd /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford-generated-files.hmap -I/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford-own-target-headers.hmap -I/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford-all-target-headers.hmap -iquote /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford-project-headers.hmap -F/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos -I/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/include -I/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/DerivedSources/armv6 -I/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/DerivedSources -c /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/HelloStanford_Prefix.pch -o /var/folders/0x/0xQOV6nEH28IIbTuWDvPcE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloStanford_Prefix-fkxizsnecttdgycnvuepnpbevtiv/HelloStanford_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/marocchino/Library/MobileDevice/Provisioning Profiles/A1E35EC1-2DAA-4B99-8BF1-010E2C399682.mobileprovision" /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/embedded.mobileprovision
-s285527253.442639
-e285527253.475272
-r1
-xProcessProductPackaging
-x/Users/marocchino/Library/MobileDevice/Provisioning Profiles/A1E35EC1-2DAA-4B99-8BF1-010E2C399682.mobileprovision
-x/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/embedded.mobileprovision
-lSLF07#2@203"ProcessProductPackaging "/Users/marocchino/Library/MobileDevice/Provisioning Profiles/A1E35EC1-2DAA-4B99-8BF1-010E2C399682.mobileprovision" build/Debug-iphoneos/HelloStanford.app/embedded.mobileprovision285527253#285527253#0(0"0(0#0#130"/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/embedded.mobileprovision4300885448#490"    cd /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/marocchino/Library/MobileDevice/Provisioning Profiles/A1E35EC1-2DAA-4B99-8BF1-010E2C399682.mobileprovision" -o /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford.xcent
-s285527253.486907
-e285527253.504975
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
-x/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford.xcent
-lSLF07#2@195"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford.xcent285527253#285527253#0(0"0(0#0#147"/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford.xcent4300885448#508"    cd /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/HelloStanford.build/Debug-iphoneos/HelloStanford.build/HelloStanford.xcent0#
-
-CTouch /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app
-s285527253.475348
-e285527253.486801
-r1
-xTouch
-x/Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app
-lSLF07#2@111"Touch /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app285527253#285527253#0(0"0(0#0#0"4300885448#326"    cd /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/marocchino/Documents/projects/iphone/stanford/HelloStanford/build/Debug-iphoneos/HelloStanford.app0#
-
