@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>267A9839110C7C5000032291</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>PolygonShape.m</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>267A983A110C7C5000032291</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>PolygonShape.m</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>26D404F1110DAAFF00E0EDD1</string>
-						<key>history</key>
-						<array>
-							<string>267A983B110C7C5000032291</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {750, 461}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>38 250 750 502 0 0 1280 778 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -314,8 +273,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
-									<integer>9</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -355,7 +312,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>PolygonShape.h</string>
+								<string>MyController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -363,19 +320,17 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>PolygonShape.h</string>
+										<string>MyController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>26D404EE110DAAFF00E0EDD1</string>
+										<string>26D4051C110DAE7A00E0EDD1</string>
 										<key>history</key>
 										<array>
 											<string>267A9830110C7C5000032291</string>
 											<string>267A9831110C7C5000032291</string>
+											<string>26D40517110DAE7700E0EDD1</string>
 											<string>267A9832110C7C5000032291</string>
-											<string>267A9834110C7C5000032291</string>
-											<string>26D404EC110DAAFF00E0EDD1</string>
-											<string>26D404ED110DAAFF00E0EDD1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -573,6 +528,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>26D40519110DAE7700E0EDD1</string>
+		<string>26D4051B110DAE7700E0EDD1</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>269BF1851104AD790006FE53</string>
 		<string>267A9839110C7C5000032291</string>
 		<string>/Users/marocchino/Documents/projects/iphone/stanford/HelloPoly/HelloPoly.xcodeproj</string>
@@ -699,8 +658,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 198}}</string>
-											<string>{{316, 0}, {378, 198}}</string>
+											<string>{{0, 0}, {316, 201}}</string>
+											<string>{{316, 0}, {378, 201}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -715,8 +674,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 198}}</string>
-											<string>{{0, 198}, {694, 183}}</string>
+											<string>{{0, 0}, {694, 201}}</string>
+											<string>{{0, 201}, {694, 180}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -749,7 +708,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 198}}</string>
+									<string>{{316, 0}, {378, 201}}</string>
 									<key>RubberWindowFrame</key>
 									<string>267 279 694 422 0 0 1280 778 </string>
 								</dict>
@@ -777,13 +736,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>267A983D110C7C5000032291</string>
+				<string>26D40510110DAE7600E0EDD1</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>267A983E110C7C5000032291</string>
-				<string>267A983F110C7C5000032291</string>
-				<string>267A9840110C7C5000032291</string>
-				<string>267A9841110C7C5000032291</string>
-				<string>267A9842110C7C5000032291</string>
+				<string>26D40511110DAE7600E0EDD1</string>
+				<string>26D40512110DAE7600E0EDD1</string>
+				<string>26D40513110DAE7600E0EDD1</string>
+				<string>26D40514110DAE7600E0EDD1</string>
+				<string>26D40515110DAE7600E0EDD1</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -947,7 +906,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>267A9843110C7C5000032291</string>
+				<string>26D40516110DAE7600E0EDD1</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -957,7 +916,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
