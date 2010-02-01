@@ -8,15 +8,38 @@
 #import "MyController.h"
 
 @implementation MyController
+- (void) awakeFromNib {
+	[poly setNumberOfSides:[[NSUserDefaults standardUserDefaults] integerForKey:@"numberOfSides"]];
+	NSLog(@"%d",[poly numberOfSides]);
+	[self apply];
+}
+
 - (IBAction)decNum:(id)sender {
-	[poly numberOfSides:poly.numberOfSides-1];
-    number.text = [NSString stringWithFormat:@"%d",[poly numberOfSides]];
-//    number.text = [NSString stringWithFormat:@"%d",number.text.integerValue - 1];
+	[poly setNumberOfSides:poly.numberOfSides-1];
+	[self apply];
+	//    number.text = [NSString stringWithFormat:@"%d",number.text.integerValue - 1];
 }
 
 - (IBAction)incNum:(id)sender {
-	[poly numberOfSides:poly.numberOfSides+1];
-    number.text = [NSString stringWithFormat:@"%d",[poly numberOfSides]];
-//    number.text = [NSString stringWithFormat:@"%d",number.text.integerValue + 1];
+	[poly setNumberOfSides:poly.numberOfSides+1];
+	[self apply];
+	//    number.text = [NSString stringWithFormat:@"%d",number.text.integerValue + 1];
 }
+
+- (void)apply
+{
+    number.text = [NSString stringWithFormat:@"%d",[poly numberOfSides]];
+	polygonName.text = [NSString stringWithFormat:@"%@",[poly name]];
+	[[NSUserDefaults standardUserDefaults] setInteger:[poly numberOfSides] forKey:@"numberOfSides"];
+	
+}
+
+- (void)dealloc {
+	[number release];
+	[poly release];
+	[polygonName release];
+    [super dealloc];
+}
+
+
 @end

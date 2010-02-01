@@ -7,34 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* HelloPolyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* HelloPolyAppDelegate.m */; };
+		1D3623260D0F684500981E51 /* grapheneBrokenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* grapheneBrokenAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		269BF18C1104AF4A0006FE53 /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269BF18A1104AF4A0006FE53 /* MyController.m */; };
-		26D632C61105DC81009C11B9 /* PolygonShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D632C51105DC81009C11B9 /* PolygonShape.m */; };
-		26FF5843110ED2BC00D3098B /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FF5842110ED2BC00D3098B /* MyImageView.m */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		4BFCCA2111006996007DF255 /* Evaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCCA2011006996007DF255 /* Evaluator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* HelloPolyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloPolyAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* HelloPolyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloPolyAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* HelloPoly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloPoly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3623240D0F684500981E51 /* grapheneBrokenAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grapheneBrokenAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* grapheneBrokenAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = grapheneBrokenAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* grapheneBroken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grapheneBroken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		269BF18A1104AF4A0006FE53 /* MyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyController.m; sourceTree = "<group>"; };
-		269BF18B1104AF4A0006FE53 /* MyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyController.h; sourceTree = "<group>"; };
-		26D632C41105DC81009C11B9 /* PolygonShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PolygonShape.h; path = ../WhatATool/PolygonShape.h; sourceTree = SOURCE_ROOT; };
-		26D632C51105DC81009C11B9 /* PolygonShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PolygonShape.m; path = ../WhatATool/PolygonShape.m; sourceTree = SOURCE_ROOT; };
-		26FF5841110ED2BC00D3098B /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
-		26FF5842110ED2BC00D3098B /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* HelloPoly_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloPoly_Prefix.pch; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* HelloPoly-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HelloPoly-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* grapheneBroken_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grapheneBroken_Prefix.pch; sourceTree = "<group>"; };
+		4BFCCA1F11006996007DF255 /* Evaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Evaluator.h; sourceTree = "<group>"; };
+		4BFCCA2011006996007DF255 /* Evaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Evaluator.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* grapheneBroken-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "grapheneBroken-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +48,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				269BF18A1104AF4A0006FE53 /* MyController.m */,
-				26D632C41105DC81009C11B9 /* PolygonShape.h */,
-				26D632C51105DC81009C11B9 /* PolygonShape.m */,
-				269BF18B1104AF4A0006FE53 /* MyController.h */,
-				1D3623240D0F684500981E51 /* HelloPolyAppDelegate.h */,
-				1D3623250D0F684500981E51 /* HelloPolyAppDelegate.m */,
+				4BFCCA1F11006996007DF255 /* Evaluator.h */,
+				4BFCCA2011006996007DF255 /* Evaluator.m */,
+				1D3623240D0F684500981E51 /* grapheneBrokenAppDelegate.h */,
+				1D3623250D0F684500981E51 /* grapheneBrokenAppDelegate.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -67,7 +59,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* HelloPoly.app */,
+				1D6058910D05DD3D006BFB54 /* grapheneBroken.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,8 +72,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				26FF5841110ED2BC00D3098B /* MyImageView.h */,
-				26FF5842110ED2BC00D3098B /* MyImageView.m */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -89,7 +79,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* HelloPoly_Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* grapheneBroken_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -99,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
-				8D1107310486CEB800E47090 /* HelloPoly-Info.plist */,
+				8D1107310486CEB800E47090 /* grapheneBroken-Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -117,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* HelloPoly */ = {
+		1D6058900D05DD3D006BFB54 /* grapheneBroken */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelloPoly" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "grapheneBroken" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -129,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = HelloPoly;
-			productName = HelloPoly;
-			productReference = 1D6058910D05DD3D006BFB54 /* HelloPoly.app */;
+			name = grapheneBroken;
+			productName = grapheneBroken;
+			productReference = 1D6058910D05DD3D006BFB54 /* grapheneBroken.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,14 +129,14 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloPoly" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "grapheneBroken" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* HelloPoly */,
+				1D6058900D05DD3D006BFB54 /* grapheneBroken */,
 			);
 		};
 /* End PBXProject section */
@@ -168,10 +158,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* HelloPolyAppDelegate.m in Sources */,
-				269BF18C1104AF4A0006FE53 /* MyController.m in Sources */,
-				26D632C61105DC81009C11B9 /* PolygonShape.m in Sources */,
-				26FF5843110ED2BC00D3098B /* MyImageView.m in Sources */,
+				1D3623260D0F684500981E51 /* grapheneBrokenAppDelegate.m in Sources */,
+				4BFCCA2111006996007DF255 /* Evaluator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,9 +174,9 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = HelloPoly_Prefix.pch;
-				INFOPLIST_FILE = "HelloPoly-Info.plist";
-				PRODUCT_NAME = HelloPoly;
+				GCC_PREFIX_HEADER = grapheneBroken_Prefix.pch;
+				INFOPLIST_FILE = "grapheneBroken-Info.plist";
+				PRODUCT_NAME = grapheneBroken;
 			};
 			name = Debug;
 		};
@@ -198,9 +186,9 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = HelloPoly_Prefix.pch;
-				INFOPLIST_FILE = "HelloPoly-Info.plist";
-				PRODUCT_NAME = HelloPoly;
+				GCC_PREFIX_HEADER = grapheneBroken_Prefix.pch;
+				INFOPLIST_FILE = "grapheneBroken-Info.plist";
+				PRODUCT_NAME = grapheneBroken;
 			};
 			name = Release;
 		};
@@ -233,7 +221,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelloPoly" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "grapheneBroken" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -242,7 +230,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloPoly" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "grapheneBroken" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
