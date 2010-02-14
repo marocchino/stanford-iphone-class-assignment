@@ -1,0 +1,151 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* ScrolliPad */ = {
+		activeExec = 0;
+		executables = (
+			2657856A1122E60500B11A62 /* ScrolliPad */,
+		);
+	};
+	2657856A1122E60500B11A62 /* ScrolliPad */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ScrolliPad;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	265785791122E60800B11A62 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	2657857A1122E60800B11A62 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	265785BB1122E70100B11A62 /* complie.jpeg */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	265785C91122FBF100B11A62 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 265785BB1122E70100B11A62 /* complie.jpeg */;
+	};
+	265785CA1122FBF100B11A62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ScrolliPadViewController.h */;
+		name = "ScrolliPadViewController.h: 12";
+		rLen = 0;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 271;
+		vrLoc = 0;
+	};
+	26DCCC7A1124375F008A134E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ScrolliPadViewController.m */;
+		name = "ScrolliPadViewController.m: 38";
+		rLen = 0;
+		rLoc = 1016;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 566;
+	};
+	26DCCC8811243DE1008A134E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ScrolliPadViewController.m */;
+		name = "ScrolliPadViewController.m: 39";
+		rLen = 0;
+		rLoc = 1108;
+		rType = 0;
+		vrLen = 549;
+		vrLoc = 679;
+	};
+	28D7ACF60DDB3853001CB0EB /* ScrolliPadViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 255}}";
+			sepNavSelRange = "{260, 0}";
+			sepNavVisRange = "{0, 271}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* ScrolliPadViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 1155}}";
+			sepNavSelRange = "{1108, 0}";
+			sepNavVisRange = "{679, 549}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 2657856A1122E60500B11A62 /* ScrolliPad */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ScrolliPad */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ScrolliPad */,
+		);
+		codeSenseManager = 2657857A1122E60800B11A62 /* Code sense */;
+		executables = (
+			2657856A1122E60500B11A62 /* ScrolliPad */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 287586148;
+			PBXWorkspaceStateSaveDate = 287586148;
+		};
+		perUserProjectItems = {
+			265785C91122FBF100B11A62 /* PBXBookmark */ = 265785C91122FBF100B11A62 /* PBXBookmark */;
+			265785CA1122FBF100B11A62 /* PBXTextBookmark */ = 265785CA1122FBF100B11A62 /* PBXTextBookmark */;
+			26DCCC7A1124375F008A134E /* PBXTextBookmark */ = 26DCCC7A1124375F008A134E /* PBXTextBookmark */;
+			26DCCC8811243DE1008A134E /* PBXTextBookmark */ = 26DCCC8811243DE1008A134E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 265785791122E60800B11A62 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}
