@@ -7,6 +7,7 @@
 //
 
 #import "CalculatorModel.h"
+#import "math.h"
 
 @interface CalculatorModel()
 @property (nonatomic, strong) NSMutableArray *operandStack;
@@ -39,11 +40,27 @@
     if ([operation isEqualToString:@"+"]) {
         calculateResult = a + b;
     } else if ([operation isEqualToString:@"*"]) {
-        calculateResult = a * b;
+        if (a) {
+            calculateResult = a * b;
+        } else {
+            calculateResult = 1 * b;
+        }
     } else if ([operation isEqualToString:@"-"]) {
         calculateResult = a - b;
     } else if ([operation isEqualToString:@"/"] && b) {
         calculateResult = a / b;
+    } else if ([operation isEqualToString:@"π"]) {
+        if (b) {
+            calculateResult = M_PI*b;
+        } else {
+            calculateResult = M_PI;
+        }
+    } else if ([operation isEqualToString:@"sin"]) {
+        calculateResult = sin(b);
+    } else if ([operation isEqualToString:@"cos"]) {
+        calculateResult = cos(b);
+    } else if ([operation isEqualToString:@"sqrt"]) {
+        calculateResult = sqrt(b);
     }
     [self pushOperand:calculateResult];
     return calculateResult;
