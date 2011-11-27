@@ -18,6 +18,7 @@
 
 @synthesize userIsInTheMiddleOfEnteringANumber = _userIsInTheMiddleOfEnteringANumber;
 @synthesize display = _display;
+@synthesize formulaDisplay = _formulaDisplay;
 @synthesize model = _model;
 
 - (CalculatorModel *)model {
@@ -37,10 +38,12 @@
             //do nothing
         } else {
             newText = [currentText stringByAppendingString:digit];
+            [self.formulaDisplay setText:[[self.formulaDisplay text] stringByAppendingString:digit]];
         }
     } else {
         newText = digit;
         self.userIsInTheMiddleOfEnteringANumber = YES;
+        [self.formulaDisplay setText:[[self.formulaDisplay text] stringByAppendingString:digit]];
     }
     [self.display setText:newText];
 }
@@ -48,6 +51,7 @@
 - (IBAction)enterPressed {
     [self.model pushOperand:[self.display.text doubleValue]];
     self.userIsInTheMiddleOfEnteringANumber = NO;
+    [self.formulaDisplay setText:[[self.formulaDisplay text] stringByAppendingString:@" "]];
 }
 
 - (IBAction)operationPressed:(UIButton *)sender {
@@ -55,6 +59,11 @@
     double result = [self.model performOperation:sender.currentTitle];
     NSString *resultString = [NSString stringWithFormat:@"%g", result];
     [self.display setText:resultString];
+    [self.formulaDisplay setText:[[self.formulaDisplay text] stringByAppendingFormat:@"%@ ",sender.currentTitle]];
 }
 
+- (void)viewDidUnload {
+    [self setFormulaDisplay:nil];
+    [super viewDidUnload];
+}
 @end
