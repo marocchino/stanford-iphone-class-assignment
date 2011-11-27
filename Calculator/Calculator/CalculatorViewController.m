@@ -48,6 +48,13 @@
     [self.display setText:newText];
 }
 
+- (IBAction)clearPressed {
+    [self.model clearOperand];
+    [self.display setText:@""];
+    [self.formulaDisplay setText:@""];
+    self.userIsInTheMiddleOfEnteringANumber = NO;
+}
+
 - (IBAction)enterPressed {
     [self.model pushOperand:[self.display.text doubleValue]];
     self.userIsInTheMiddleOfEnteringANumber = NO;
