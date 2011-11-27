@@ -51,7 +51,7 @@
 
 + (NSString *) descriptionOfProgram:(id)program
 {
-    return @"Implement This Assognment #2";
+    return [program componentsJoinedByString:@" "];
 }
 
 + (double) popOperandOffStack: (NSMutableArray *) stack {
