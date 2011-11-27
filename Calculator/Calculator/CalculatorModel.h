@@ -14,4 +14,10 @@
 - (double) performOperation: (NSString *)operaion;
 - (void) clearOperand;
 
+@property (readonly) id program;
+
++ (double) runProgram: (id) program;
++ (NSString *) descriptionOfProgram: (id) program;
++ (double) popOperandOffStack: (NSMutableArray *) stack;
+
 @end
